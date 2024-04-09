@@ -6,7 +6,7 @@
 #    By: jtollena <jtollena@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/02 23:04:50 by lolemmen          #+#    #+#              #
-#    Updated: 2024/03/29 15:17:13 by jtollena         ###   ########.fr        #
+#    Updated: 2024/04/09 11:46:37 by jtollena         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ NAME = weird
 
 RM = rm -rf
 CC = c++
-CFLAGS = -std=c++98 -Wall -Werror -Wextra -Wno-shadow
+CFLAGS = -std=c++98 -Wall -Werror -Wextra -Wno-shadow -Wshadow
 
 # Directories
 
